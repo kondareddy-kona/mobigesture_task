@@ -1,0 +1,9 @@
+.app {
+  text-align: center;
+  display: flex;
+  height: 100%;
+}
+.app__box{
+  border: 3px solid orange;
+}
+
