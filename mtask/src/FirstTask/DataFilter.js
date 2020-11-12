@@ -24,7 +24,7 @@ class DataFilter extends React.Component {
 
         return (
             <div>
-                Select Names: <input type="text" placeholder = "Search.." value={this.state.searchString} onChange={this.handleChange} placeholder="Type here..." />
+                Select Names: <input type="text" placeholder="Search.." value={this.state.searchString} onChange={this.handleChange} placeholder="Type here..." />
                 <button style={{ float: "right" }} onClick={this.handleAdd}>ADD</button>
                 {options}
             </div>
